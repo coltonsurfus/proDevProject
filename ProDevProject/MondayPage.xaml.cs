@@ -10,7 +10,40 @@ namespace ProDevProject
         public MondayPage()
         {
             InitializeComponent();
+            Calculations c = new Calculations();
+            Database db = new Database();
+            int bench = db.getBench();
+            int press = db.getPress();
             this.BackgroundColor = Color.LightSlateGray;
+
+            // Changes the Label text to the correct weights
+            mondayBp1Label.Text = c.calc(bench, .65) + " x8";
+            mondayBp2Label.Text = c.calc(bench, .75) + " x6";
+            mondayBp3Label.Text = c.calc(bench, .85) + " x4";
+            mondayBp4Label.Text = c.calc(bench, .85) + " x4";
+            mondayBp5Label.Text = c.calc(bench, .85) + " x4";
+            mondayBp6Label.Text = c.calc(bench, .80) + " x5";
+            mondayBp7Label.Text = c.calc(bench, .75) + " x6";
+            mondayBp8Label.Text = c.calc(bench, .70) + " x7";
+            mondayBp9Label.Text = c.calc(bench, .65) + " x8";
+
+            mondayP1Label.Text = c.calc(press, .50) + " x6";
+            mondayP2Label.Text = c.calc(press, .60) + " x5";
+            mondayP3Label.Text = c.calc(press, .70) + " x3";
+            mondayP4Label.Text = c.calc(press, .70) + " x5";
+            mondayP5Label.Text = c.calc(press, .70) + " x7";
+            mondayP6Label.Text = c.calc(press, .70) + " x4";
+            mondayP7Label.Text = c.calc(press, .70) + " x6";
+            mondayP8Label.Text = c.calc(press, .70) + " x8";
+
+
+
+
+
+
+
+
+
 
             mondayBp9Check.Toggled += mondayBenchCheck_Toggled;
             mondayP8Check.Toggled += mondayPressCheck_Toggled;

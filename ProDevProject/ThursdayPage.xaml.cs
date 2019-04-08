@@ -10,7 +10,33 @@ namespace ProDevProject
         public ThursdayPage()
         {
             InitializeComponent();
+            Calculations c = new Calculations();
+            Database db = new Database();
+            int squat = db.getSquat();
+            int deadlift = db.getDeadlift();
             this.BackgroundColor = Color.LightSlateGray;
+
+            // Changes the Label text to the correct weights
+            thursSquat1Label.Text = c.calc(squat, .75) + " x5";
+            thursSquat2Label.Text = c.calc(squat, .85) + " x3";
+            thursSquat3Label.Text = c.calc(squat, .95) + " x1+";
+            thursSquat4Label.Text = c.calc(squat, .90) + " x3";
+            thursSquat5Label.Text = c.calc(squat, .85) + " x3";
+            thursSquat6Label.Text = c.calc(squat, .80) + " x3";
+            thursSquat7Label.Text = c.calc(squat, .75) + " x5";
+            thursSquat8Label.Text = c.calc(squat, .70) + " x5";
+            thursSquat9Label.Text = c.calc(squat, .65) + " x5+";
+
+            thursSumo1Label.Text = c.calc(deadlift, .50) + " x5";
+            thursSumo2Label.Text = c.calc(deadlift, .60) + " x5";
+            thursSumo3Label.Text = c.calc(deadlift, .70) + " x3";
+            thursSumo4Label.Text = c.calc(deadlift, .70) + " x5";
+            thursSumo5Label.Text = c.calc(deadlift, .70) + " x7";
+            thursSumo6Label.Text = c.calc(deadlift, .70) + " x4";
+            thursSumo7Label.Text = c.calc(deadlift, .70) + " x6";
+            thursSumo8Label.Text = c.calc(deadlift, .70) + " x8";
+
+
 
             thursSquat9Check.Toggled += thursSquatCheck_Toggled;
             thursSumo8Check.Toggled += thursSumoCheck_Toggled;

@@ -11,6 +11,32 @@ namespace ProDevProject
         {
             InitializeComponent();
             this.BackgroundColor = Color.LightSlateGray;
+            Calculations c = new Calculations();
+            Database db = new Database();
+            int deadlift = db.getDeadlift();
+            int squat = db.getSquat();
+
+            // Changes the Label text to the correct weights
+            satDL1Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL2Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL3Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL4Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL5Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL6Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL7Label.Text = c.calc(deadlift, .725) + " x3";
+            satDL8Label.Text = c.calc(deadlift, .725) + " x3";
+
+            satFs1Label.Text = c.calc(squat, .75) * .75 + " x3";
+            satFs2Label.Text = c.calc(squat, .75) * .75 + " x3";
+            satFs3Label.Text = c.calc(squat, .75) * .75 + " x3";
+            satFs4Label.Text = c.calc(squat, .75) * .75 + " x3";
+            satFs5Label.Text = c.calc(squat, .75) * .75 + " x3";
+            satFs6Label.Text = c.calc(squat, .75) * .75 + " x3";
+
+
+
+
+
 
             satDL8Check.Toggled += satDLCheck_Toggled;
             satFs6Check.Toggled += satFsCheck_Toggled;

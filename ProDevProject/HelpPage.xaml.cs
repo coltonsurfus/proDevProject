@@ -10,8 +10,9 @@ namespace ProDevProject
         public HelpPage()
         {
             InitializeComponent();
+            Database db = new Database();
             this.BackgroundColor = Color.LightSlateGray;
-            //testLabel.Text = App.Database.getSquat() + "";
+            testLabel.Text = db.getBench() + "";
 
         }
     }

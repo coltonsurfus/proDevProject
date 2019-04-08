@@ -14,8 +14,9 @@ namespace ProDevProject
             InitializeComponent();
             this.BackgroundColor = Color.LightSlateGray;
             db = new Database();
-           
-            db.setupFirstTime();
+            testLabel.Text = db.getBench() + "";
+
+            //db.setupFirstTime();
 
         }
 
@@ -24,7 +25,7 @@ namespace ProDevProject
         {
             db.InsertCalculations(int.Parse(squatMax.Text), int.Parse(benchMax.Text), int.Parse(deadliftMax.Text), int.Parse(pressMax.Text));
 
-            //testLabel.Text = db.getSquat() + "";
+            testLabel.Text = db.getBench() + "";
 
 
         }
