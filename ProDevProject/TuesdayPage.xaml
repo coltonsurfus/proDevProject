@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "Tuesday" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProDevProject.TuesdayPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "75" />
+                    <ColumnDefinition Width = "200" />
+                    <ColumnDefinition Width = "*" />
+                </Grid.ColumnDefinitions>
+              <Button x:Name = "tuesdayDLButton" HorizontalOptions = "End" VerticalOptions = "Center" Text = "Deadlift" Grid.Row = "0" Grid.Column = "1" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                    <Label x:Name = "tuesdayDL1Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "1" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                    <Label x:Name = "tuesdayDL2Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "2" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   
+                    <Label x:Name = "tuesdayDL3Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "3" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                
+                   
+                    <Label x:Name = "tuesdayDL4Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "4" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    
+                    <Label x:Name = "tuesdayDL5Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "5" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    
+                    <Label x:Name = "tuesdayDLLabel" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "6" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>  
+                   
+                    <Label x:Name = "tuesdayDL7Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "7" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                    <Label x:Name = "tuesdayDL8Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "8" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                   
+                    <Label x:Name = "tuesdayDL9Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "9" Grid.Column = "0" />
+                    <Switch x:Name = "tuesdayDL9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>              
+                
+              <Button x:Name = "tuesdayFsButton" Grid.Row = "10" Grid.Column = "1" Text = "Front Squat" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "tuesdayFs1Label"  Grid.Row = "11" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                      
+                    
+                   <Label x:Name = "tuesdayFs2Label"  Grid.Row = "12" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                    
+                   <Label x:Name = "tuesdayFs3Label"  Grid.Row = "13" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>   
+                    
+                   <Label x:Name = "tuesdayFs4Label"  Grid.Row = "14" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                    
+                   <Label x:Name = "tuesdayFs5Label"  Grid.Row = "15" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "tuesdayFs6Label"  Grid.Row = "16" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "tuesdayFs7Label"  Grid.Row = "17" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "tuesdayFs8Label"  Grid.Row = "18" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayFs8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+            <Button x:Name = "tuesdayCableRowButton" Grid.Row = "19" Grid.Column = "1" Text = "Cable Row" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "tuesdayCableRow1Label"  Grid.Row = "20" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayCableRow1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "tuesdayCableRow2Label"  Grid.Row = "21" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayCableRow2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "tuesdayCableRow3Label"  Grid.Row = "22" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayCableRow3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+            <Button x:Name = "tuesdayShrugButton" Grid.Row = "23" Grid.Column = "1" Text = "Shrugs" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "tuesdayShrug1Label"  Grid.Row = "24" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayShrug1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "tuesdayShrug2Label"  Grid.Row = "25" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayShrug2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "tuesdayShrug3Label"  Grid.Row = "26" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "tuesdayShrug3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            </Grid> 
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

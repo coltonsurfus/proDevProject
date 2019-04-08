@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Profile" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProDevProject.ProfilePage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "Auto" />
+                    <RowDefinition Height = "Auto" />
+                    <RowDefinition Height = "Auto" />
+                    <RowDefinition Height = "Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "110" />
+                    <ColumnDefinition Width = "auto" />
+                    <ColumnDefinition Width = "50" />
+                </Grid.ColumnDefinitions>
+                    
+                    <Label HorizontalOptions = "End" VerticalOptions = "Center" Text = "Squat:" Grid.Row = "0" Grid.Column = "0" />
+                    <Entry x:Name = "squatMax"
+                           Text = "{Binding Squat}"
+                           HorizontalOptions = "Center"
+                           VerticalOptions = "Center"
+                           Placeholder = "Enter your Squat"
+                           WidthRequest = "150"
+                           Margin = "20"
+                           Grid.Row = "0"
+                           Grid.Column = "1" />
+                
+                <Label HorizontalOptions = "End" VerticalOptions = "Center" Text = "Bench:" Grid.Row = "1" Grid.Column = "0" />
+                <Entry x:Name = "benchMax"
+                       Text = "{Binding Bench}"
+                       HorizontalOptions = "Center"
+                       VerticalOptions = "Center"
+                       Placeholder = "Enter your Bench"
+                       WidthRequest = "150"
+                       Margin = "20"
+                       Grid.Row = "1"
+                       Grid.Column = "1" />
+                 
+                <Label HorizontalOptions = "End" VerticalOptions = "Center" Text = "Deadlift:" Grid.Row = "2" Grid.Column = "0" />
+                <Entry x:Name = "deadliftMax"
+                       Text = "{Binding Deadlift}"
+                       HorizontalOptions = "Center"
+                       VerticalOptions = "Center"
+                       Placeholder = "Enter your Deadlift"
+                       WidthRequest = "150"
+                       Margin = "20"
+                       Grid.Row = "2"
+                       Grid.Column = "1" />
+        
+                <Label HorizontalOptions = "End" VerticalOptions = "Center" Text = "Press:" Grid.Row = "3" Grid.Column = "0" />
+                <Entry x:Name = "pressMax"
+                       Text = "{Binding Press}"
+                       HorizontalOptions = "Center"
+                       VerticalOptions = "Center"
+                       Placeholder = "Enter your Press"
+                       WidthRequest = "150"
+                       Margin = "20"
+                       Grid.Row = "3"
+                       Grid.Column = "1" />
+                
+
+                
+            </Grid>
+            
+            
+              
+                
+                 <Button x:Name = "confrimButton" Clicked = "ConfirmButton_Clicked" HorizontalOptions = "Center" VerticalOptions = "Center" Text = "Confirm" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White" />
+               
+                
+            <Label x:Name = "testLabel" Text = "test"></Label>
+                
+                    
+            
+            
+
+            
+        </StackLayout> 
+
+    </ContentPage.Content>
+</ContentPage>

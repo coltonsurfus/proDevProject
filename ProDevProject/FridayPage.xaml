@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "Friday" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProDevProject.FridayPage">
+    <ContentPage.Content>
+        
+     
+            <ScrollView>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "75" />
+                    <ColumnDefinition Width = "200" />
+                    <ColumnDefinition Width = "*" />
+                </Grid.ColumnDefinitions>
+              <Button x:Name = "friBenchButton" HorizontalOptions = "End" VerticalOptions = "Center" Text = "Bench" Grid.Row = "0" Grid.Column = "1" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                    <Label x:Name = "friBench1Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "1" Grid.Column = "0" />
+                    <Switch x:Name = "friBench1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                    <Label x:Name = "friBench2Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "2" Grid.Column = "0" />
+                    <Switch x:Name = "friBench2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   
+                    <Label x:Name = "friBench3Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "3" Grid.Column = "0" />
+                    <Switch x:Name = "friBench3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                
+                   
+                    <Label x:Name = "friBench4Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "4" Grid.Column = "0" />
+                    <Switch x:Name = "friBench4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    
+                    <Label x:Name = "friBench5Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "5" Grid.Column = "0" />
+                    <Switch x:Name = "friBench5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    
+                    <Label x:Name = "friBench6Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "6" Grid.Column = "0" />
+                    <Switch x:Name = "friBench6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>  
+                   
+                    <Label x:Name = "friBench7Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "7" Grid.Column = "0" />
+                    <Switch x:Name = "friBench7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                    <Label x:Name = "friBench8Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "8" Grid.Column = "0" />
+                    <Switch x:Name = "friBench8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                   
+                    <Label x:Name = "friBench9Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "9" Grid.Column = "0" />
+                    <Switch x:Name = "friBench9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>              
+                
+              <Button x:Name = "friCgButton" Grid.Row = "10" Grid.Column = "1" Text = "Close Grip Bench" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "friCg1Label"  Grid.Row = "11" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                      
+                    
+                   <Label x:Name = "friCg2Label"  Grid.Row = "12" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                    
+                   <Label x:Name = "friCg3Label"  Grid.Row = "13" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>   
+                    
+                   <Label x:Name = "friCg4Label"  Grid.Row = "14" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                    
+                   <Label x:Name = "friCg5Label"  Grid.Row = "15" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "friCg6Label"  Grid.Row = "16" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "friCg7Label"  Grid.Row = "17" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "friCg8Label"  Grid.Row = "18" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friCg8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+            <Button x:Name = "friDbCurlsButton" Grid.Row = "19" Grid.Column = "1" Text = "Dumbell Curls" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "friDbCurls1Label"  Grid.Row = "20" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friDbCurls1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "friDbCurls2Label"  Grid.Row = "21" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friDbCurls2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "friDbCurls3Label"  Grid.Row = "22" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friDbCurls3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+            <Button x:Name = "friTriExtButton" Grid.Row = "23" Grid.Column = "1" Text = "Tricep Extension" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "friTriExt1Label"  Grid.Row = "24" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friTriExt1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "friTriExt2Label"  Grid.Row = "25" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friTriExt2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "friTriExt3Label"  Grid.Row = "26" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "friTriExt3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            </Grid> 
+        </StackLayout>
+            </ScrollView>
+       
+        
+    </ContentPage.Content>
+</ContentPage>

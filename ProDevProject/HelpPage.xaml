@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "Help" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProDevProject.HelpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label x:Name = "helpLabel" Text = "To being using the application, visit the Profile Page and enter in numbers for your lifts. After this is done, pick whichever day of the week you wish to workout on."></Label>
+            
+                        <Label x:Name = "testLabel" Text = "test"></Label>
+
+                        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

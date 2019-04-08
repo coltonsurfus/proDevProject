@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage Title="Workout" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ProDevProject" x:Class="ProDevProject.MainPage">
+    
+    <StackLayout Padding = "10">
+        <!-- Place new controls here -->
+        
+        <Button Text="Profile" Clicked="Profile_Clicked" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+      
+   <ScrollView Orientation = "Horizontal" Padding = "10" >
+        <StackLayout Orientation = "Horizontal">
+        <Button Text="Monday" Clicked="Monday_Clicked" HeightRequest = "75" WidthRequest = "100" BackgroundColor = "Black" TextColor = "White"/>
+        <Button Text="Tuesday" Clicked="Tuesday_Clicked" HeightRequest = "75" WidthRequest = "100" BackgroundColor = "Black" TextColor = "White"/>
+        <Button Text="Wednesday" Clicked="Wednesday_Clicked" HeightRequest = "75" WidthRequest = "100" BackgroundColor = "Black" TextColor = "White"/>
+        <Button Text="Thursday" Clicked="Thursday_Clicked" HeightRequest = "75" WidthRequest = "100" BackgroundColor = "Black" TextColor = "White"/>
+        <Button Text="Friday" Clicked="Friday_Clicked" HeightRequest = "75" WidthRequest = "100" BackgroundColor = "Black" TextColor = "White"/>
+        <Button Text="Saturday" Clicked="Saturday_Clicked" HeightRequest = "75" WidthRequest = "100" BackgroundColor = "Black" TextColor = "White"/>
+        </StackLayout>
+            
+    </ScrollView>
+             <Button Text="Help" Clicked="Help_Clicked" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+               
+    </StackLayout>
+</ContentPage>

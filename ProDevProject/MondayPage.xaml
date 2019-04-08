@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "Monday" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProDevProject.MondayPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+                    <RowDefinition Height = "*" />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "75" />
+                    <ColumnDefinition Width = "200" />
+                    <ColumnDefinition Width = "*" />
+                </Grid.ColumnDefinitions>
+              <Button x:Name = "mondayBenchButton" HorizontalOptions = "CenterAndExpand" VerticalOptions = "Center" Text = "Bench Press" Grid.Row = "0" Grid.Column = "1" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                    <Label x:Name = "mondayBp1Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "1" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                    <Label x:Name = "mondayBp2Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "2" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   
+                    <Label x:Name = "mondayBp3Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "3" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                
+                   
+                    <Label x:Name = "mondayBp4Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "4" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    
+                    <Label x:Name = "mondayBp5Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "5" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    
+                    <Label x:Name = "mondayBp6Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "6" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>  
+                   
+                    <Label x:Name = "mondayBp7Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "7" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                    <Label x:Name = "mondayBp8Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "8" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                   
+                    <Label x:Name = "mondayBp9Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "9" Grid.Column = "0" />
+                    <Switch x:Name = "mondayBp9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>              
+                
+              <Button x:Name = "mondayPressButton" Grid.Row = "10" Grid.Column = "1" Text = "Press" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "mondayP1Label"  Grid.Row = "11" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                      
+                    
+                   <Label x:Name = "mondayP2Label"  Grid.Row = "12" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                    
+                   <Label x:Name = "mondayP3Label"  Grid.Row = "13" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>   
+                    
+                   <Label x:Name = "mondayP4Label"  Grid.Row = "14" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                    
+                   <Label x:Name = "mondayP5Label"  Grid.Row = "15" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "mondayP6Label"  Grid.Row = "16" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "mondayP7Label"  Grid.Row = "17" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "mondayP8Label"  Grid.Row = "18" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayP8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+            <Button x:Name = "mondayDbBenchButton" Grid.Row = "19" Grid.Column = "1" Text = "Incline DB Bench" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
+                   <Label x:Name = "mondayDb1Label"  Grid.Row = "20" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayDb1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "mondayDb2Label"  Grid.Row = "21" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayDb2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "mondayDb3Label"  Grid.Row = "22" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayDb3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+            <Button x:Name = "mondayDbRowButton" Grid.Row = "23" Grid.Column = "1" Text = "DB Row" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White" />
+                   <Label x:Name = "mondayDbRow1Label"  Grid.Row = "24" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayDbRow1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    
+                   <Label x:Name = "mondayDbRow2Label"  Grid.Row = "25" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayDbRow2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                    
+                   <Label x:Name = "mondayDbRow3Label"  Grid.Row = "26" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
+                   <Switch x:Name = "mondayDbrow3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            </Grid> 
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
