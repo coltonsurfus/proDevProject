@@ -18,77 +18,77 @@
 
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width = "75" />
-                    <ColumnDefinition Width = "200" />
-                    <ColumnDefinition Width = "*" />
+                    <ColumnDefinition Width = "2.5*" />
+                    <ColumnDefinition Width = "5*" />
+                    <ColumnDefinition Width = "2.5*" />
                 </Grid.ColumnDefinitions>
               <Button x:Name = "satDLButton" HorizontalOptions = "End" VerticalOptions = "Center" Text = "Deadlift" Grid.Row = "0" Grid.Column = "1" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                     <Label x:Name = "satDL1Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "1" Grid.Column = "0" />
-                    <Switch x:Name = "satDL1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "satDL1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                     <Label x:Name = "satDL2Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "2" Grid.Column = "0" />
-                    <Switch x:Name = "satDL2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "satDL2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                    
                     <Label x:Name = "satDL3Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "3" Grid.Column = "0" />
-                    <Switch x:Name = "satDL3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                
+                    <Switch x:Name = "satDL3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                
                    
                     <Label x:Name = "satDL4Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "4" Grid.Column = "0" />
-                    <Switch x:Name = "satDL4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "satDL4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                     
                     <Label x:Name = "satDL5Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "5" Grid.Column = "0" />
-                    <Switch x:Name = "satDL5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "satDL5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                     
                     <Label x:Name = "satDL6Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "6" Grid.Column = "0" />
-                    <Switch x:Name = "satDL6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>  
+                    <Switch x:Name = "satDL6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>  
                    
                     <Label x:Name = "satDL7Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "7" Grid.Column = "0" />
-                    <Switch x:Name = "satDL7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "satDL7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                     <Label x:Name = "satDL8Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "8" Grid.Column = "0" />
-                    <Switch x:Name = "satDL8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "satDL8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                    
                                   
                 
               <Button x:Name = "satFsButton" Grid.Row = "9" Grid.Column = "1" Text = "Front Squat" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "satFs1Label"  Grid.Row = "10" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satFs1Check" Grid.Row =  "10" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                      
+                   <Switch x:Name = "satFs1Check" Grid.Row =  "10" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                      
                     
                    <Label x:Name = "satFs2Label"  Grid.Row = "11" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satFs2Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                   <Switch x:Name = "satFs2Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                    
                     
                    <Label x:Name = "satFs3Label"  Grid.Row = "12" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satFs3Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>   
+                   <Switch x:Name = "satFs3Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>   
                     
                    <Label x:Name = "satFs4Label"  Grid.Row = "13" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satFs4Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                   <Switch x:Name = "satFs4Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                    
                     
                    <Label x:Name = "satFs5Label"  Grid.Row = "14" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satFs5Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "satFs5Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "satFs6Label"  Grid.Row = "15" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satFs6Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "satFs6Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                   
                     
             <Button x:Name = "satBarbellRowButton" Grid.Row = "16" Grid.Column = "1" Text = "Barbell Row" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "satBarbellRow1Label"  Grid.Row = "17" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satBarbellRow1Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "satBarbellRow1Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "satBarbellRow2Label"  Grid.Row = "18" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satBarbellRow2Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "satBarbellRow2Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "satBarbellRow3Label"  Grid.Row = "19" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satBarbellRow3Check" Grid.Row =  "19" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "satBarbellRow3Check" Grid.Row =  "19" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
             <Button x:Name = "satLatPulldownButton" Grid.Row = "20" Grid.Column = "1" Text = "Lat Pulldown" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "satLatPulldown1Label"  Grid.Row = "21" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satLatPulldown1Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "satLatPulldown1Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "satLatPulldown2Label"  Grid.Row = "22" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satLatPulldown2Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "satLatPulldown2Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "satLatPulldown3Label"  Grid.Row = "23" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "satLatPulldown3Check" Grid.Row =  "23" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>     
+                   <Switch x:Name = "satLatPulldown3Check" Grid.Row =  "23" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>     
                     
                     
                     

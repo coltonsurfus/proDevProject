@@ -18,82 +18,82 @@
 
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width = "75" />
-                    <ColumnDefinition Width = "200" />
-                    <ColumnDefinition Width = "*" />
+                    <ColumnDefinition Width = "2.5*" />
+                    <ColumnDefinition Width = "5*" />
+                    <ColumnDefinition Width = "2.5*" />
                 </Grid.ColumnDefinitions>
               <Button x:Name = "wedPressButton" HorizontalOptions = "End" VerticalOptions = "Center" Text = "Press" Grid.Row = "0" Grid.Column = "1" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                     <Label x:Name = "wedPress1Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "1" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "wedPress1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                     <Label x:Name = "wedPress2Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "2" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "wedPress2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                    
                     <Label x:Name = "wedPress3Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "3" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                
+                    <Switch x:Name = "wedPress3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                
                    
                     <Label x:Name = "wedPress4Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "4" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "wedPress4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                     
                     <Label x:Name = "wedPress5Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "5" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "wedPress5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                     
                     <Label x:Name = "wedPressLabel" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "6" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>  
+                    <Switch x:Name = "wedPress6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>  
                    
                     <Label x:Name = "wedPress7Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "7" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "wedPress7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                     <Label x:Name = "wedPress8Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "8" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "wedPress8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                    
                     <Label x:Name = "wedPress9Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "9" Grid.Column = "0" />
-                    <Switch x:Name = "wedPress9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>              
+                    <Switch x:Name = "wedPress9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>              
                 
               <Button x:Name = "wedInclineButton" Grid.Row = "10" Grid.Column = "1" Text = "Incline Bench" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "wedIncline1Label"  Grid.Row = "11" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                      
+                   <Switch x:Name = "wedIncline1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                      
                     
                    <Label x:Name = "wedIncline2Label"  Grid.Row = "12" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                   <Switch x:Name = "wedIncline2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                    
                     
                    <Label x:Name = "wedIncline3Label"  Grid.Row = "13" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>   
+                   <Switch x:Name = "wedIncline3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>   
                     
                    <Label x:Name = "wedIncline4Label"  Grid.Row = "14" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                   <Switch x:Name = "wedIncline4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                    
                     
                    <Label x:Name = "wedIncline5Label"  Grid.Row = "15" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "wedIncline5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "wedIncline6Label"  Grid.Row = "16" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "wedIncline6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "wedIncline7Label"  Grid.Row = "17" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "wedIncline7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "wedIncline8Label"  Grid.Row = "18" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedIncline8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "wedIncline8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
             <Button x:Name = "wedFacePullButton" Grid.Row = "19" Grid.Column = "1" Text = "FacePulls" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "wedFacePull1Label"  Grid.Row = "20" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedFacePull1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "wedFacePull1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "wedFacePull2Label"  Grid.Row = "21" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedFacePull2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "wedFacePull2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "wedFacePull3Label"  Grid.Row = "22" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedFacePull3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "wedFacePull3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
             <Button x:Name = "wedLatRaiseButton" Grid.Row = "23" Grid.Column = "1" Text = "Shrugs" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "wedLatRaise1Label"  Grid.Row = "24" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedLatRaise1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "wedLatRaise1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "wedLatRaise2Label"  Grid.Row = "25" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedLatRaise2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "wedLatRaise2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "wedLatRaise3Label"  Grid.Row = "26" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "wedLatRaise3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>     
+                   <Switch x:Name = "wedLatRaise3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>     
                     
                     
                     

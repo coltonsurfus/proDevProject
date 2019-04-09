@@ -18,82 +18,82 @@
 
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width = "75" />
-                    <ColumnDefinition Width = "200" />
-                    <ColumnDefinition Width = "*" />
+                    <ColumnDefinition Width = "2.5*" />
+                    <ColumnDefinition Width = "5*" />
+                    <ColumnDefinition Width = "2.5*" />
                 </Grid.ColumnDefinitions>
               <Button x:Name = "thursSquatButton" HorizontalOptions = "End" VerticalOptions = "Center" Text = "Back Squat" Grid.Row = "0" Grid.Column = "1" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                     <Label x:Name = "thursSquat1Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "1" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "thursSquat1Check" Grid.Row =  "1" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                     <Label x:Name = "thursSquat2Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "2" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "thursSquat2Check" Grid.Row =  "2" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                    
                     <Label x:Name = "thursSquat3Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "3" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                
+                    <Switch x:Name = "thursSquat3Check" Grid.Row =  "3" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                
                    
                     <Label x:Name = "thursSquat4Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "4" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "thursSquat4Check" Grid.Row =  "4" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                     
                     <Label x:Name = "thursSquat5Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "5" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "thursSquat5Check" Grid.Row =  "5" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                     
                     <Label x:Name = "thursSquat6Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "6" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>  
+                    <Switch x:Name = "thursSquat6Check" Grid.Row =  "6" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>  
                    
                     <Label x:Name = "thursSquat7Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "7" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                    <Switch x:Name = "thursSquat7Check" Grid.Row =  "7" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                     <Label x:Name = "thursSquat8Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "8" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>            
+                    <Switch x:Name = "thursSquat8Check" Grid.Row =  "8" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>            
                    
                     <Label x:Name = "thursSquat9Label" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" Grid.Row = "9" Grid.Column = "0" />
-                    <Switch x:Name = "thursSquat9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>              
+                    <Switch x:Name = "thursSquat9Check" Grid.Row =  "9" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>              
                 
               <Button x:Name = "thursSumoButton" Grid.Row = "10" Grid.Column = "1" Text = "Sumo Deadlift" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "thursSumo1Label"  Grid.Row = "11" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                      
+                   <Switch x:Name = "thursSumo1Check" Grid.Row =  "11" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                      
                     
                    <Label x:Name = "thursSumo2Label"  Grid.Row = "12" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                   <Switch x:Name = "thursSumo2Check" Grid.Row =  "12" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                    
                     
                    <Label x:Name = "thursSumo3Label"  Grid.Row = "13" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>   
+                   <Switch x:Name = "thursSumo3Check" Grid.Row =  "13" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>   
                     
                    <Label x:Name = "thursSumo4Label"  Grid.Row = "14" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                    
+                   <Switch x:Name = "thursSumo4Check" Grid.Row =  "14" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                    
                     
                    <Label x:Name = "thursSumo5Label"  Grid.Row = "15" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "thursSumo5Check" Grid.Row =  "15" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "thursSumo6Label"  Grid.Row = "16" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "thursSumo6Check" Grid.Row =  "16" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "thursSumo7Label"  Grid.Row = "17" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "thursSumo7Check" Grid.Row =  "17" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "thursSumo8Label"  Grid.Row = "18" Grid.Column = "0" Text = "150x12" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursSumo8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "thursSumo8Check" Grid.Row =  "18" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
             <Button x:Name = "thursLegPressButton" Grid.Row = "19" Grid.Column = "1" Text = "Leg Press" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "thursLegPress1Label"  Grid.Row = "20" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursLegPress1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "thursLegPress1Check" Grid.Row =  "20" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "thursLegPress2Label"  Grid.Row = "21" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursLegPress2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "thursLegPress2Check" Grid.Row =  "21" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "thursLegPress3Label"  Grid.Row = "22" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursLegPress3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "thursLegPress3Check" Grid.Row =  "22" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
             <Button x:Name = "thursHamCurlButton" Grid.Row = "23" Grid.Column = "1" Text = "Hamstring Curl" HorizontalOptions = "End" VerticalOptions = "Center" HeightRequest = "75" WidthRequest = "200" BackgroundColor = "Black" TextColor = "White"/>
                    <Label x:Name = "thursHamCurl1Label"  Grid.Row = "24" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursHamCurl1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>
+                   <Switch x:Name = "thursHamCurl1Check" Grid.Row =  "24" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>
                     
                    <Label x:Name = "thursHamCurl2Label"  Grid.Row = "25" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursHamCurl2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>                   
+                   <Switch x:Name = "thursHamCurl2Check" Grid.Row =  "25" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>                   
                     
                    <Label x:Name = "thursHamCurl3Label"  Grid.Row = "26" Grid.Column = "0" Text = "x10" HorizontalOptions = "End" VerticalOptions = "Center" />
-                   <Switch x:Name = "thursHamCurl3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "End" VerticalOptions = "Center"/>     
+                   <Switch x:Name = "thursHamCurl3Check" Grid.Row =  "26" Grid.Column = "2" HorizontalOptions = "Center" VerticalOptions = "Center"/>     
                     
                     
                     
